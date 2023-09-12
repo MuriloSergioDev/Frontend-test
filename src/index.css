@@ -1,0 +1,95 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+input:-webkit-autofill{
+  -webkit-text-fill-color: black !important;
+}
+
+.ui.form .field.field input:-webkit-autofill {
+    box-shadow: 0 0 0 30px white inset !important;
+    border-color: rgba(34,36,38,.15)!important;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ui.button.btn-login{
+  background-color: #20ecb4;
+  color: black;
+  margin-top: 40px;
+}
+
+.ui.button.btn-login:hover{
+  background-color: #18cb9b;
+}
+
+.ui.button.btn-login:active{
+  background-color: #18cb9b;
+  transform: translateY(1px);
+}
+
+
+@media (min-width: 480px) {
+  .main-container{
+    height: 100vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-container{
+      background: linear-gradient(
+          to right,
+          #20ecb4 0%,
+          #20ecb4 36.5%,
+          white 36.5%,
+          white 100%
+      );
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-container{
+      background: linear-gradient(
+          to right,
+          #20ecb4 0%,
+          #20ecb4 39.5%,
+          white 39.5%,
+          white 100%
+      );
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-container{
+      background: linear-gradient(
+          to right,
+          #20ecb4 0%,
+          #20ecb4 41%,
+          white 41%,
+          white 100%
+      );
+  }
+}

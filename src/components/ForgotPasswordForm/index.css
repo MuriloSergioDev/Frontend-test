@@ -1,0 +1,13 @@
+.ui.button.btn-back{
+    margin-top: 10px;
+    color: #20ecb4;
+}
+
+.ui.button.btn-back:active{
+  transform: translateY(1px);
+}
+
+.form-container h3{
+  text-align: center;
+  margin-bottom: 60px;
+}
